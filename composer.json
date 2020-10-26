@@ -1,0 +1,16 @@
+{
+	"name": "natmatv/paypal_listener",
+	"description": "listen and process paypal IPN notification",
+	"type": "library",
+	"require": {
+		"php": "~7.1",
+		"composer/installers": "~1.0",
+		"guzzlehttp/guzzle" : "~6.0",
+		"monolog/monolog": "2.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"Paypal\\":""
+		}
+	}
+}
